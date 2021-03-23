@@ -1,0 +1,195 @@
+#viewport {
+    padding-top: 55px;
+    overflow: hidden;
+    margin: 1.72rem 0;
+    padding: 0;
+    position: relative;
+}
+
+#viewport #container {
+    width: 0;
+    position: relative;
+    background: #000000;
+    margin: auto 0;
+}
+
+#viewport #container.image-caption-container {
+    float: left !important;
+}
+
+#viewport .slideContainer {
+    float: left;
+    clear: none;
+}
+
+#viewport .arrowLeft {
+    position: absolute;
+    z-index: 10;
+    left: 1%;
+    height: 40px;
+    top: 40%;
+    border-radius: 50%;
+    display: none;
+    width: 40px;
+    padding: 10PX;
+}
+
+#viewport .arrowLeft:hover {
+    background: #000000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#viewport .arrowRight {
+    position: absolute;
+    z-index: 10;
+    right: 1%;
+    height: 40px;
+    top: 40%;
+    border-radius: 50%;
+    width: 40px;
+    padding: 10PX;
+}
+
+#viewport .arrowRight:hover {
+    background: #000000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#viewport .dotContainer {
+    position: absolute;
+    bottom: 16%;
+    right: 1%;
+    z-index: 10;
+}
+
+#viewport .dotContainer .navDot {
+    padding: 5px;
+    border-radius: 10px;
+    background: #6c869d;
+    float: left;
+    margin-right: 10px;
+}
+
+#viewport .dotContainer .navDot:hover {
+    cursor: pointer;
+}
+
+#viewport .dotContainer .navDot.active {
+    background: #1f4363;
+}
+
+#viewport-main {
+    overflow: hidden;
+    position: relative;
+}
+
+#viewport-main #container {
+    width: 0;
+    position: relative;
+    background: #000000;
+    margin: auto 0;
+}
+
+#viewport-main #container:hover .hoverShow {
+    opacity: 0.8 !important;
+    filter: alpha(opacity=80) !important;
+}
+
+#viewport-main #container.image-caption-container {
+    float: left !important;
+}
+
+#viewport-main #container .slideContainer {
+    float: left;
+    clear: none;
+}
+
+#viewport-main a {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#viewport-main .arrowLeft {
+    position: absolute;
+    z-index: 10;
+    left: 1%;
+    height: 16%;
+    top: 40%;
+    border-radius: 50%;
+    display: none;
+}
+
+#viewport-main .arrowLeft:hover {
+    background: #000000;
+    opacity: 0.4 !important;
+    filter: alpha(opacity=40) !important;
+}
+
+#viewport-main .arrowRight {
+    position: absolute;
+    z-index: 10;
+    right: 1%;
+    height: 16%;
+    top: 40%;
+    border-radius: 50%;
+}
+
+#viewport-main .arrowRight:hover {
+    background: #000000;
+    opacity: 0.4 !important;
+    filter: alpha(opacity=40) !important;
+}
+
+#viewport-main .dotContainer {
+    position: absolute;
+    bottom: 16%;
+    right: 1%;
+    z-index: 10;
+}
+
+#viewport-main .dotContainer .navDot {
+    padding: 5px;
+    border-radius: 10px;
+    background: #6c869d;
+    float: left;
+    margin-right: 10px;
+}
+
+#viewport-main .dotContainer .navDot:hover {
+    cursor: pointer;
+}
+
+#viewport-main .dotContainer .navDot.active {
+    background: #1f4363;
+}
+
+#viewport-main .startShow {
+    width: 200px;
+    background: #000000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#viewport-main .startShow:hover {
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    cursor: pointer;
+}
+
+#viewport #container figcaption {
+    margin: 0;
+    padding: 8px;
+    color: white;
+    width: 100%;
+}
